@@ -13,4 +13,4 @@ for row in rows:
 			if i != j and current % values[j] == 0:
 				sum += current / values[j]
 
-print sum
+print(sum)

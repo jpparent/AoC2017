@@ -4,7 +4,7 @@ f.close()
 
 sum = 0
 length = len(inputs)
-halfLength = length/2
+halfLength = length//2
 
 matches = []
 
@@ -19,4 +19,4 @@ for i in range(0, length):
 for p in matches:
 	sum = sum + int(p)
 
-print sum
+print(sum)

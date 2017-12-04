@@ -19,4 +19,4 @@ if i == inputs[0]:
 for p in matches:
 	sum = sum + int(p)
 
-print sum
+print(sum)
